@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
-    void main_Test() {
+    void verschobenerString_Test() {
         String eingabe = "abc XYZ";
 
         String result = Main.verschobenerString(eingabe);
