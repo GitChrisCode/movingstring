@@ -14,4 +14,13 @@ class MainTest {
 
         assertEquals(result,"def ABC");
     }
+
+    @Test
+    void verschobenerString_Numbers_Only_Test() {
+        String eingabe = "1234";
+
+        String result = Main.verschobenerString(eingabe);
+
+        assertEquals(result,"1234");
+    }
 }

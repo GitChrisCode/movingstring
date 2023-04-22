@@ -2,12 +2,9 @@ package de.neuefische;
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Hello world!");
-        System.out.println("Tagchen");
-
-        verschobenerString("abc XYZ");
     }
+/*Aufgabe: Schreibe eine Funktion, die einen Buchstaben-String (abcXYZ) als Eingabeparameter entgegennimmt
+  und als Ausgabestring die einzelnen Buchstaben um 3 Stellen nach rechts verschoben zurückgibt (defABC).*/
 
     public static String verschobenerString(String eingabe) {
         StringBuilder ausgabe = new StringBuilder();
@@ -26,6 +23,4 @@ public class Main {
         }
         return ausgabe.toString();
     }
-
-
 }
