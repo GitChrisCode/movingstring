@@ -8,6 +8,10 @@ class MainTest {
 
     @Test
     void main_Test() {
+        String eingabe = "abc XYZ";
 
+        String result = Main.verschobenerString(eingabe);
+
+        assertEquals(result,"def ABC");
     }
 }
